@@ -1,0 +1,72 @@
+/* Stiler root i scenen */
+.root {
+    -fx-font-family: "Arial"; /* Skrifttype */
+    -fx-background-color: #34495EFF; /* Baggrundsfarve */
+}
+
+/* Stiler labels */
+.label {
+    -fx-font-size: 18 px; /* Skriftstørrelse */
+    -fx-text-fill: #ffffff; /* Tekstfarve (hvid) */
+}
+
+/* Stiler tekstfelter */
+.text-field {
+    -fx-font-size: 24px; /* Skriftstørrelse */
+    -fx-padding: 8; /* Indre afstand */
+    -fx-border-color: #ccc; /* Kantfarve */
+    -fx-border-radius: 5; /* Rundede hjørner på kanten */
+    -fx-background-radius: 5; /* Rundede hjørner på baggrunden */
+    -fx-text-fill: #272727; /* Tekstfarve (mørkegrå) */
+}
+
+/* Stiler placeholder-teksten i tekstfelter */
+.text-field:prompt {
+    -fx-text-fill: gray; /* Ændrer farven på placeholder-teksten */
+}
+
+/* Stiler slider-komponenten */
+.slider {
+    -fx-pref-width: 300; /* Foretrukken bredde */
+}
+
+/* Stiler tick marks på sliderens akse */
+.slider .axis .tick-mark {
+    -fx-label-fill: #ffffff; /* Farve på tick labels (hvid) */
+    -fx-font-size: 12px; /* Skriftstørrelse */
+    -fx-stroke: none; /* Fjerner eventuelle standardstreger */
+}
+
+/* Stiler sliderens akse */
+.slider .axis {
+    -fx-tick-label-fill: #ffffff; /* Tekstfarve for ticks */
+    -fx-font-family: "Arial"; /* Skrifttype */
+    -fx-tick-label-font-size: 12px; /* Skriftstørrelse for ticks */
+}
+
+/* Stiler sliderens "thumb" (den bevægelige del) */
+.slider .thumb {
+    -fx-background-color: #2196F3; /* Blå farve */
+}
+
+/* Stiler sliderens "track" (baggrundslinjen) */
+.slider .track {
+    -fx-background-color: #ddd; /* Baggrundsfarve */
+}
+
+/* Stiler knapper */
+.button {
+    -fx-background-color: #2196F3; /* Knappens baggrundsfarve */
+    -fx-text-fill: #ffffff;         /* Tekstfarve på knappen */
+    -fx-font-size: 14px;            /* Skriftstørrelse */
+    -fx-padding: 10 20;           /* Indre afstand på knappen */
+    -fx-border-radius: 5;        /* Rundede kanter */
+    -fx-background-radius: 5; /* Rundede baggrundskanter */
+    -fx-cursor: hand; /* Ændrer markøren til en hånd */
+    -fx-font-weight: bold; /* Fed tekst */
+}
+
+/* Hover på knappen */
+.button:hover {
+    -fx-background-color: #1a89e1; /* Baggrund farve på knappen */
+}
